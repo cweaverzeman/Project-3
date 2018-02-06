@@ -1,0 +1,150 @@
+.bigcircle{
+  width:400px;
+  height: 400px;
+  -moz-border-radius:200px;
+  -webkit-border-radius:200px;
+  border-radius:200px;
+  margin:20px;
+background-color: pink;
+float:right;
+transition: background-color 0.3s ease-in 0.2s;
+}
+.bigcircle:hover{
+  background-color: red;
+}
+.circle{
+  width:200px;
+  height: 200px;
+  -moz-border-radius:100px;
+  -webkit-border-radius:100px;
+  border-radius:100px;
+  margin:20px;
+background-color: pink;
+float:right;
+transition: background-color 0.3s ease-in 0.2s;
+}
+.circle:hover{
+  background-color: #df80ff;
+}
+.tinycirlce{
+  width:50px;
+  height: 50px;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+  margin:20px;
+background-color: pink;
+float:right;
+transition: background-color 0.3s ease-in 0.2s;
+}
+.tinycircle:hover{
+  background-color:red;
+}
+
+body{
+  background-color:#99ff99;
+  padding: 80px;
+
+}
+
+.blue{
+  background-color:#00ffff;
+  padding: 20px;
+  padding-left: 60px;
+  font-family: "Trattatello";
+  font-size: 30px;
+  color: #ac00e6;
+  line-height: 1.5;
+  transition: color 0.3s ease-in 0.2s;
+  transition: background-color: 0.3s ease-in 0.2s;
+  margin-right: 100px;
+}
+.blue:hover{
+  color:red;
+  background-color: #ffcc66;
+}
+.yellow{
+  background-color: #ffff99;
+  padding: 20px;
+  padding-left: 40px;
+  font-family: "Georgia";
+  font-size: 40px;
+  color:#00cc66;
+  transition: background-color 0.3s ease-in 0.2s;
+}
+.yellow:hover{
+  background-color:#99ff99;
+}
+.lavender{
+  background-color:  #d9b3ff;
+  padding: 40px;
+  font-family: "Helvetica";
+  color:#004466;
+  font-size: 40px;
+  transition: background-color 0.3s ease-in 0.2s;
+}
+.lavender:hover{
+  background-color: #ff9933;
+}
+span{
+  color: red;
+  font-size: 80px;
+  transition: color 0.3s ease-in 0.2s;
+}
+span:hover{
+  color: #ac00e6;
+}
+.pink{
+  background-color: pink;
+  color: red;
+  font-size: 40px;
+  font-family: "Centaur";
+  padding: 100px;
+  padding-left: 100px;
+  transition:background-color 0.3s ease-in 0.2s;
+}
+.pink:hover{
+  background-color: #ffff66;
+}
+h2{
+  text-align: center;
+  font-size: 60px;
+  color:#cc0066;
+  font-family: "Centaur";
+  padding: 20px;
+  transition:color 0.3s ease-in 0.2s;
+}
+h2:hover{
+  color:#0066ff;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid red;
+  float:right;
+  margin: 40px;
+  transition: solid 0.3s ease-in 0.2s;
+}
+.triangle{
+  solid: #b300b3;
+}
+.square{
+  width: 200px;
+	height: 200px;
+	background: #6699ff;
+  float:right;
+  margin: 80px;
+  transition: background-color 0.3s ease-in 0.2s;
+
+}
+.square:hover{
+  background-color: #ff5050;
+}
+.itch{
+  font-family: "Parchment"
+}
+.large{
+  font-size: 60px;
+}
